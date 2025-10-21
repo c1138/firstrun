@@ -19,7 +19,7 @@ while true; do
   elif [ "$guess" -gt "$target" ]; then
     echo "<"
   else
-    echo "$attempts were made"
+    echo "$attempts tries were made"
     break
   fi
 done
